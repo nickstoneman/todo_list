@@ -1,0 +1,8 @@
+<h1>edit page</h1>
+
+<form action="/items/<%= @item['id'] %>" method="POST">
+  <input type="text" name="item" id="item" value="<%=@item['item'] %>" autofocus>
+  <input type="text" name="details" id="details" value="<%=@item['details'] %>">
+  <button>Save Item</button>
+  
+</form>
